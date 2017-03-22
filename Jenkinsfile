@@ -12,7 +12,7 @@ node {
 
    stage 'Deploy'
         echo 'Push to Repo'
-        sh 'datetime'
+        sh 'date'
 
    stage 'Cleanup'
         sh 'dh -h' 
