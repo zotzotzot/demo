@@ -15,5 +15,5 @@ node {
         sh 'date'
 
    stage 'Cleanup'
-        sh 'dh -h' 
+        sh 'df -h' 
 }
