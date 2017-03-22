@@ -8,7 +8,7 @@ node {
 
    stage 'Build'
         echo 'building'
-        sh 'true'
+        sh 'exit 1'
 
    stage 'Deploy'
         echo 'Push to Repo'
